@@ -4,13 +4,13 @@
 
 Java Virtual Machine의 줄인 것으로 직역하면 자바 실행을 위한 가상 기계라고 할 수 있다
 
-![Untitled](JVM%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A1%E1%86%AB%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled.png)
+![Untitled](https://github.com/rudeh2926/2024-TIL/blob/main/JAVA/JVM%EC%9D%B4%EB%9E%80%3F/JVM%EC%9D%B4%EB%9E%80%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled.png)
 
 일반 애플리케이션의 코드는 OS만 거치고 하드웨어로 전달되는데 비해 Java애플리케이션은 JVM을 한 번 더 거치기 때문에, 그리고 하드웨어에 맞게 완전히 컴파일된 상태가 아니고 실행 시에 해석되기 때문에 속도가 느리다는 단점을 가지고 있다
 
 위 그림에서 볼 수 있듯이 **Java 애플리케이션은 JVM하고만 상호작용**을 하기 때문에 OS와 하드웨어에 독립적으로 다른 OS에서도 프로그램의 변경없이 실행이 가능한 것이다. 단, **JVM은 OS에 종속적**이기 때문에 해당 OS에서 실행가능한 JVM이 필요하다.
 
-![Untitled](JVM%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A1%E1%86%AB%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled%201.png)
+![Untitled](https://github.com/rudeh2926/2024-TIL/blob/main/JAVA/JVM%EC%9D%B4%EB%9E%80%3F/JVM%EC%9D%B4%EB%9E%80%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled%201.png)
 
 이렇게 함으로써 자바의 중요한 장점 중의 하나인 **WORA**(**Write Once Run Anywhere)**가능해졌다
 
@@ -33,7 +33,7 @@ JVM의 역할은 자바 애플리케이션을 클래스 로더를 통해 읽어 
 
 ### JVM 구조와 작동원리
 
-![Untitled](JVM%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A1%E1%86%AB%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled%202.png)
+![Untitled](https://github.com/rudeh2926/2024-TIL/blob/main/JAVA/JVM%EC%9D%B4%EB%9E%80%3F/JVM%EC%9D%B4%EB%9E%80%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled%202.png)
 
 1. Class Loader
 
@@ -56,7 +56,7 @@ JVM의 역할은 자바 애플리케이션을 클래스 로더를 통해 읽어 
 
 </aside>
 
-![Untitled](JVM%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A1%E1%86%AB%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled%203.png)
+![Untitled](https://github.com/rudeh2926/2024-TIL/blob/main/JAVA/JVM%EC%9D%B4%EB%9E%80%3F/JVM%EC%9D%B4%EB%9E%80%20e1f32cbdcbc24cae91561c8424f8b40b/Untitled%203.png)
 
 <aside>
 💡 **자바는 멀티스레드 환경으로 모든 스레드는 Heep, Method Area를 공유한다**
